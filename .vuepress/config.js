@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/developer/',
     title: 'Bifrost Developer',
     description: 'bifrost developer',
     markdown: {
