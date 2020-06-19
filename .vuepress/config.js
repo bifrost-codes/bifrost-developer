@@ -35,8 +35,9 @@ module.exports = {
                     {
                         text: 'Documentation',
                         items: [
-                            {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
-                            {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
+                          {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
+                          {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
+                          {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
                         ],
                     },
                     {text: 'GitHub', link: 'https://github.com/bifrost-codes'},
