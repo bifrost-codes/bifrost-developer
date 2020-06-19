@@ -31,12 +31,12 @@ module.exports = {
                     },
                 },
                 nav: [
-                    {text: 'Home', link: 'https://bifrost.codes'},
+                    {text: 'Home', link: 'https://bifrost.finance'},
                     {
                         text: 'Documentation',
                         items: [
-                            {text: 'Wiki', link: 'https://docs.bifrost.codes/wiki'},
-                            {text: 'Whitepaper',  link: 'https://docs.bifrost.codes/whitepaper'},
+                            {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
+                            {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
                         ],
                     },
                     {text: 'GitHub', link: 'https://github.com/bifrost-codes'},

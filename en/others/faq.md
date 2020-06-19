@@ -1,1 +1,1 @@
-See [Bifrost Whitepaper](https://docs.bifrost.codes/whitepaper/)
+See [Bifrost Whitepaper](https://docs.bifrost.finance/whitepaper/)
