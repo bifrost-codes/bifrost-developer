@@ -24,7 +24,7 @@ rustup target add wasm32-unknown-unknown --toolchain nightly
 
 3. Build bifrost
 ```
-git clone https://github.com/bifrost-codes/bifrost.git
+git clone https://github.com/bifrost-finance/bifrost.git
 
 cd bifrost && cargo build --release
 ```

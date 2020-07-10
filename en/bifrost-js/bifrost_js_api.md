@@ -1,1 +1,1 @@
-[bifrost-js](https://github.com/bifrost-codes/bifrost.js)
+[bifrost-js](https://github.com/bifrost-finance/bifrost.js)

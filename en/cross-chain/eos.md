@@ -65,7 +65,7 @@ $ cleos wallet unlock # prompt you input the password
 #### Compile
 
 ```
-$ git clone -b v2.0 https://github.com/bifrost-codes/eos
+$ git clone -b v2.0 https://github.com/bifrost-finance/eos
 $ git submodule update --init --recursive
 $ cd eos/
 $ mkdir build && cd build
@@ -115,7 +115,7 @@ $ ./build/bin/nodeos --delete-all-blocks --delete-state-history --delete-relay-h
 
 #### Compile
 ```
-$ git clone https://github.com/bifrost-codes/bifrost-eos-contracts
+$ git clone https://github.com/bifrost-finance/bifrost-eos-contracts
 $ cd bifrost-eos-contracts
 $ mkdir build && cd build
 $ cmake ..
