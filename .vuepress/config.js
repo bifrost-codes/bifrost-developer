@@ -1,5 +1,5 @@
 module.exports = {
-    base: '/developer/',
+    base: '/',
     title: 'Bifrost Developer',
     description: 'bifrost developer',
     markdown: {
@@ -35,9 +35,9 @@ module.exports = {
                     {
                         text: 'Documentation',
                         items: [
-                          {text: 'Developer', link: 'https://docs.bifrost.finance/developer'},
-                          {text: 'Whitepaper',  link: 'https://docs.bifrost.finance/whitepaper'},
-                          {text: 'Wiki', link: 'https://docs.bifrost.finance/wiki'},
+                          {text: 'Developer', link: 'https://developer.bifrost.finance'},
+                          {text: 'Whitepaper',  link: 'https://whitepaper.bifrost.finance'},
+                          {text: 'Wiki', link: 'https://wiki.bifrost.finance'},
                         ],
                     },
                     {text: 'GitHub', link: 'https://github.com/bifrost-finance'},
