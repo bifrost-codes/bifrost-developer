@@ -1,4 +1,13 @@
 ## Bifrost
+
+### 1. Compile
+Follow the [readme](https://github.com/bifrost-finance/bifrost/tree/master) to compile a bifrost node.
+```
+$ git clone https://github.com/bifrost-finance/bifrost.git
+$ git checkout master
+$ cargo build --release
+```
+
 ### 1. Run nodes
 
 Start two Bifrost nodes.
@@ -65,9 +74,11 @@ $ cleos wallet unlock # prompt you input the password
 #### Compile
 
 ```
-$ git clone -b v2.0 https://github.com/bifrost-finance/eos
+$ git clone https://github.com/bifrost-finance/bifrost-eos-relay.git
+$ git checkout master
+$ cd bifrost-eos-relay/
 $ git submodule update --init --recursive
-$ cd eos/
+$ git tag v2.0.4 -m 'fix no tag'
 $ mkdir build && cd build
 $ cmake ..
 $ make -j4
@@ -162,7 +173,7 @@ Go to [polkadot.js.org](https://polkadot.js.org/apps/#/settings/developer), Copy
 
 ### EOS to Bifrost
 
-Before you send a transaction to Bifrost, check **jim**'s and **bifrost**'s balance.
+Before you send a transaction to Bifrost, check **jim**'s and **bifrostcross**'s balance.
 
 ```
 # should print 10000.0000 EOS
@@ -174,7 +185,7 @@ $ cleos get currency balance eosio.token bifrostcross
 
 Now send a transaction.
 ```
-$ cleos push action eosio.token transfer '["jim", "bifrostcross", "100.0000 EOS", "alice@bifrost:EOS"]' -p jim@active
+$ cleos push action eosio.token transfer '["jim", "bifrostcross", "100.0000 EOS", "5GrwvaEF5zXb26Fz9rcQpDWS57CtERHpNehXCPcNoHGKutQY@bifrost:EOS"]' -p jim@active
 ```
 
 Go to [polkadot.js.org](https://polkadot.js.org/apps/#/extrinsics), to check whether transaction is sent successfully to Bifrost or not.
